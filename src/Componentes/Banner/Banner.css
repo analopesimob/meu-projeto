@@ -1,0 +1,28 @@
+.banner {
+  background: linear-gradient(to right, #2b1b4b, #412a7a, #f9906f);
+  height: 200px;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 16px 200px;
+  border-radius: 20px 20px 0 0;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner h1 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
+
+.banner p {
+  margin-top: 0;
+  margin-bottom: 0;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+  
+}
