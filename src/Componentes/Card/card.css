@@ -1,0 +1,135 @@
+.vocabulary-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(0);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  
+  
+  
+}
+
+.vocabulary-card:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 15px 20px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.card-header {
+  display: table-row-group;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.word {
+  font-size: 1.25rem;
+  color: #1f2937;
+}
+
+.pronunciation-btn {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c5f4f7 ;
+  border-radius: 9999px;
+  color: #123ba3;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pronunciation-btn:hover {
+  background-color: #e9d5ff;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #fb7185;
+}
+
+.input-disabled {
+  background-color: #f3f4f6;
+  cursor: not-allowed;
+}
+
+.verify-btn {
+  width: 100%;
+  background-color: #f75eaf;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.verify-btn:hover {
+  background-color: #f43f5e;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.verify-btn:active {
+  transform: translateY(0.125rem);
+}
+
+.btn-disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.result-message {
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.success {
+  background-color: #ecfdf5;
+  color: #065f46;
+}
+
+.error {
+  background-color: #fef2f2;
+  color: #991b1b;
+}
+
+.warning {
+  background-color: #fffbeb;
+  color: #92400e;
+}
+
+.category-tag {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  background-color: #ffe4e6;
+  color: #1f2937;
+}
